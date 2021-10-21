@@ -82,6 +82,7 @@ public class User implements Serializable {
 	public void setDateNaissance(Date dateNaissance) {
 		this.dateNaissance = dateNaissance;
 	}
+	
 	public Role getRole() {
 		return role;
 	}
