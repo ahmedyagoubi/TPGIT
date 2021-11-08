@@ -43,7 +43,7 @@ public class EMployeServiceImplTest {
 	{
 		List<Employe> liseEmployer=es.retrieveAllEmployes();
 		l.info("users:"+liseEmployer+"\n");
-		Assertions.assertEquals(2,liseEmployer.size());
+		Assertions.assertEquals(1,liseEmployer.size());
 	}
 	@Test
 	public void testDelete()
@@ -51,11 +51,5 @@ public class EMployeServiceImplTest {
 		es.deleteEmploye("1");
 		
 	}
-	@Test
-	public void testRetriveUser()
-	{
-		Employe e =es.retrieveEmploye("2");
-		l.info("Employe:"+e+"\n");
-		
-	}
+
 }

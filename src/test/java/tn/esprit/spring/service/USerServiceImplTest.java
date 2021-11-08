@@ -47,7 +47,7 @@ public class USerServiceImplTest {
 	{
 		List<User> listuser=us.retrieveAllUsers();
 		l.info("users:"+listuser+"\n");
-		Assertions.assertEquals(2,listuser.size());
+		Assertions.assertEquals(1,listuser.size());
 	}
 	@Test
 	public void testDelete()
